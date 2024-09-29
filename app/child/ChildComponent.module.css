@@ -1,0 +1,29 @@
+.child {
+    padding: 20px;
+    background-color: #eee7fa;
+    border: 1px solid #1607f4;
+    border-radius: 5px;
+    margin: 10px 0;
+    text-align: center;
+}
+
+.child h2 {
+    font-size: 1.5rem;
+    color: #060606;
+}
+
+.child p {
+    font-size: 1rem;
+    color: #060606;
+}
+
+@media (max-width: 600px) {
+    .child {
+        padding: 10px;
+        font-size: 0.9rem;
+    }
+
+    .child h2 {
+        font-size: 1.2rem;
+    }
+}
